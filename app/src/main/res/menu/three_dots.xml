@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Home"
+        android:id="@+id/threeDotHome" />
+    <item
+        android:id="@+id/threeDotAbout"
+        android:title="About"/>
+    <item
+        android:title="Contact Us"
+        android:id="@+id/threeDotContactUs"/>
+    <item
+        android:title="Share"
+        android:id="@+id/threeDotShare"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_three_dot_share"
+        />
+
+</menu>

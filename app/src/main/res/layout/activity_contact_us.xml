@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactUs">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail: sainigiofficial@gmail.com"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to portfolio website:"/>
+    <TextView
+        android:id="@+id/mportfolio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:textIsSelectable="true"
+        android:text="https://sainigi.github.io/mPortfolio/"
+        />
+    <TextView
+        android:id="@+id/CreditTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AboutDescription"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:text="©Saini"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>
